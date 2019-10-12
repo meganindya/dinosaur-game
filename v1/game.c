@@ -202,9 +202,9 @@ void convColors(void) {
 
 void loadImages(void) {
 	char **fn = (char **) malloc(sizeof(char *) * 8);
-	fn[0] = "dino1.pbm"; fn[1] = "dino2.pbm"; fn[2] = "dino3.pbm";
-	fn[3] = "dino4.pbm"; fn[4] = "dino5.pbm"; fn[5] = "dino6.pbm";
-	fn[6] = "cacti.pbm"; fn[7] = "cloud.pbm";
+	fn[0] = "res/dino1.pbm"; fn[1] = "res/dino2.pbm"; fn[2] = "res/dino3.pbm";
+	fn[3] = "res/dino4.pbm"; fn[4] = "res/dino5.pbm"; fn[5] = "res/dino6.pbm";
+	fn[6] = "res/cacti.pbm"; fn[7] = "res/cloud.pbm";
 	
 	for(int i = 0; i < 8; i++) {
 		FILE *fp = fopen(fn[i], "r");
