@@ -188,7 +188,7 @@ void init(void) {
 	convColors();
 	loadImages();
 
-	FILE *fp = fopen("hiscore", "r");
+	FILE *fp = fopen("res/hiscore", "r");
 	fscanf(fp, "%d", &hiscore);
 }
 
@@ -324,7 +324,7 @@ void checkCollision(void) {
 void eventCollision(void) {
 	halt = true;
 	if(score <= hiscore)	return;
-	FILE *fp = fopen("hiscore", "w");
+	FILE *fp = fopen("res/hiscore", "w");
 	fprintf(fp, "%d", score);
 	fclose(fp);
 }
