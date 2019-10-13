@@ -19,5 +19,5 @@ Run the game using:
 ```
 
 ## Screenshots
-![Screenshot 1](screenshots/screenshot-1.png?raw=true "Screenshot 1") <br/>
-![Screenshot 2](screenshots/screenshot-2.png?raw=true "Screenshot 2")
+![Screenshot 1](v1/screenshots/screenshot-1.png?raw=true "Screenshot 1") <br/>
+![Screenshot 2](v1/screenshots/screenshot-2.png?raw=true "Screenshot 2")
